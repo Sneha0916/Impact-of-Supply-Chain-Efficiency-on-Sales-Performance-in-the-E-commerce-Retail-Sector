@@ -25,4 +25,6 @@ Key customer-centric metrics such as **Churn Rate**, **Customer Retention Rate (
 ## 🚀 How to Run the Project
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/supply-chain-analysis.git
+   git clone https://github.com/your-username/supply-chain-analysis.git.
+
+   
