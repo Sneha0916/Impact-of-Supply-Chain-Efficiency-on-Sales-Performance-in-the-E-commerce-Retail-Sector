@@ -1,11 +1,14 @@
 # Supply Chain Analytics with Python
 
 ## 📌 Project Overview
-This repository explores the impact of **supply chain efficiency** on customer behavior and sales performance in the e-commerce sector.  
+This repository explores the impact of **supply chain efficiency** on customer behavior and sales performance in the e-commerce sector using the **DataCo Global Supply Chain dataset**.  
+
 Two Python workflows are included:  
 
 1. **Customer Behavior Analysis** → Calculates **Churn Rate**, **Customer Retention Rate (CRR)**, and **Repeat Purchase Rate (RPR)**, along with visualizations to evaluate how delivery performance affects customer loyalty.  
 2. **Optimized Regression Analysis** → Performs a **Multiple Linear Regression (MLR)** to quantify the effect of supply chain variables (e.g., shipping days, discount rate, delivery risk) on **sales per customer**.  
+
+---
 
 ## 🛠️ Tools & Libraries Used
 - **Python 3**
@@ -15,6 +18,17 @@ Two Python workflows are included:
 - **Datetime** → Time-based calculations  
 - **Statsmodels** → Regression analysis (OLS)  
 - **OpenPyXL** → Export results to Excel  
+
+---
+
+## 📂 Dataset
+The project uses the **DataCo Global Supply Chain Dataset**, which includes:  
+- Customer IDs and Segments  
+- Order & Shipping Dates  
+- Delivery Status and Risks  
+- Product Pricing, Discounts, and Quantities  
+- Regional and Market Segments  
+- Sales per Customer  
 
 ---
 
