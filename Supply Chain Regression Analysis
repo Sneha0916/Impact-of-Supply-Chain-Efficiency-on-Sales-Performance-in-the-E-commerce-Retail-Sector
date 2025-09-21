@@ -1,0 +1,28 @@
+# Optimized Supply Chain Regression Analysis
+
+## 📌 Project Overview
+This project performs a **Multiple Linear Regression (MLR)** analysis on a global supply chain dataset to identify how key supply chain variables affect **sales performance per customer**.  
+The optimized version of the script keeps only essential variables, applies preprocessing, runs regression with **statsmodels**, and exports results to Excel.  
+
+## 🛠️ Tools & Libraries Used
+- **Python 3**
+- **Pandas** → Data preprocessing & cleaning  
+- **Statsmodels** → Regression analysis (OLS)  
+- **ExcelWriter (pandas)** → Export results to Excel  
+
+## 📊 Analysis & Workflow
+1. **Data Selection** – Focused on essential features (Sales, Quantity, Price, Discount, Shipping Days, Delivery Risk, Customer/Market Segments).  
+2. **Aggregation** – Grouped by `Customer Id` with meaningful aggregation (sum for sales, mean for shipping days, etc.).  
+3. **Encoding** – Applied **one-hot encoding** to categorical variables (Delivery Status, Customer Segment, Market, Category Name).  
+4. **Regression Model** – Fitted **OLS regression** using statsmodels.  
+5. **Output** – Exported coefficients, p-values, R-squared, F-statistic, and significant variables to Excel.  
+
+## 📈 Outputs
+- **Regression Coefficients** (with t-stats & p-values)  
+- **Model Metrics** (R-squared, Adjusted R-squared, F-statistic, Significance F)  
+- **Significant Variables (p < 0.05)** highlighted in console  
+
+## 🚀 How to Run
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/supply-chain-regression.git
